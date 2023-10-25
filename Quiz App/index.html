@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bible Quiz App</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="quiz-container" id="quiz">
+    
+            <div class="quiz-header">
+                <h2 id="question">Question text</h2>
+                <ul>
+                    <li> <!--using input type = radio to ensure user selects only one from the options.-->
+                        <input
+                            type="radio"
+                            id="a"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="a_text" for="a">Question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            id="b"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="b_text" for="b">Question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            id="c"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="c_text" for="c">Question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            id="d"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="d_text" for="d">Question</label>
+                    </li>
+
+                    <!--
+                    <li>
+                    <input
+                            type="radio"
+                            id="e"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="e_text" for="e">Question</label>
+                    </li>
+                    <li>
+                    <input
+                            type="radio"
+                            id="f"
+                            name="Answer"
+                            class="Answer"
+                        />
+                        <label id="f_text" for="f">Question</label>
+                    </li>
+                    <li>
+                    <input
+                            type="radio"
+                            id="g"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="g_text" for="g">Question</label>
+                    </li>
+                    <li>
+                    <input
+                            type="radio"
+                            id="h"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="h_text" for="h">Question</label>
+                    </li>
+                    <li>
+                    <input
+                            type="radio"
+                            id="i"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="i_text" for="i">Question</label>
+                    </li>
+                    <li>
+                        <input
+                                type="radio"
+                                id="j"
+                                name="answer"
+                                class="answer"
+                            />
+                            <label id="j_text" for="j">Question</label>
+                        </li> -->
+                </ul>
+            </div>
+            <button id="submit">Submit</button>
+        </div>
+    </body>
+</html>
